@@ -1,0 +1,78 @@
+.fonthead{
+    font-family: 'Georgia', serif;
+    font-size: 3rem;
+    color: #007bff;
+    
+}
+
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    position: relative;
+    background-image: url("https://nitte.edu.in/admin/photo/3/faculty/8/2656.jpg");
+    background-position: center center;
+    background-size: cover;
+   
+        float: left;
+    
+  }
+  
+  .center-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 50vh; /* Full viewport height */
+  }
+  
+  .image2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url("https://nitte.edu.in/admin/photo/3/faculty/8/2656.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .navbar{
+    height: 50px;
+  }
+ .down{
+    margin-top: 50px;
+    
+ }
+ .buttonstyle {
+    background-color: #dee910; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.carousel-caption {
+    bottom: 50%;
+    transform: translate(0,50%);
+    }
+.carousel-caption h5{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+
+}
+.carousel {
+    max-width: 700px;
+    max-height: 400px; 
+    margin: auto;
+}
+
+.carousel-inner img {
+    height: 400px; 
+   object-fit: cover;
+}
+@media(min-width:400px){
+.carousel-caption h5{
+    font-size: 4rem;
+} 
