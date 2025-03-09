@@ -4,7 +4,34 @@
     color: #007bff;
 }
 
-
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.buttonx {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttonx:hover {
+    background: #218838;
+}
 
 .center-container {
     display: flex;
@@ -18,6 +45,15 @@
     height: 150px;
     border-radius: 50%;
     background-image: url("https://nitte.edu.in/admin/photo/3/faculty/8/2656.jpg");
+    background-position: center;
+    background-size: cover;
+    float: left ;
+    margin-right: 20px; 
+}
+.image3 {
+    width: 300px;
+    height: 50px;
+    background-image: url("nitte-logo.png");
     background-position: center;
     background-size: cover;
     float: left ;
